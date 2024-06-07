@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Corrigindo a URL do Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="shortcut icon" href="icon.png">
+    <title>Vans®</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo da Loja">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="https://www.vans.com.br/">Home</a></li>
+                <li><a href="https://www.vans.com.br/">Produtos</a></li>
+                <li><a href="https://www.vans.com.br/quem-somos">Sobre</a></li>
+                <li><a href="https://www.vans.com.br/institutional/entrega">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="item">
+            <img src="tenis1.png" alt="Tênis Esportivo">
+            <h2>Tênis Esportivo</h2>
+            <p>Confortável e estiloso, ideal para corridas e atividades físicas.</p>
+            <div class="price">R$ 299,99</div>
+            <!-- Adicionando o link no botão -->
+            <a href="#"><button>Ver</button></a>
+        </div>
+        <div class="item">
+            <img src="tenis2.png" alt="Tênis Casual">
+            <h2>Tênis Casual</h2>
+            <p>Perfeito para o dia a dia, combina com tudo.</p>
+            <div class="price">R$ 599,99</div>
+            <!-- Adicionando o link no botão -->
+            <a href="https://www.vans.com.br/tenis-knu-skool-navy-true-white/p/1002002760002U?gad_source=1&gclid=CjwKCAjwvIWzBhAlEiwAHHWgvVBWs_uTNjZu-x5Dm9ieiizSx6xmGsa0z6bvs5svZkhC94jVwUxfAxoCwVEQAvD_BwE"><button>Ver</button></a>
+        </div>
+        <div class="item">
+            <img src="tenis3.png" alt="Tênis de Caminhada">
+            <h2>Tênis Caminhada</h2>
+            <p>Projetado para oferecer o máximo de conforto nas caminhadas.</p>
+            <div class="price">R$ 599,99</div>
+            <!-- Adicionando o link no botão -->
+            <a href="https://www.vans.com.br/tenis-knu-skool-black-true-white/p/1002002760001U?gad_source=1&gclid=CjwKCAjwvIWzBhAlEiwAHHWgvZ4GjwIFo35R6GNMJzQpzDQ_tIUI3pFVlTNsKkioLsIB2KIQICiywBoCpwoQAvD_BwE"><button>Ver</button></a>
+        </div>
+    </div>
+    
+    <!-- Corrigindo a inclusão do script do VLibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    
+    <footer>
+        <p>Desenvolvido por Kauane Vieira</p>
+    </footer>
+</body>
+</html>
